@@ -4,13 +4,7 @@
   --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
-.display-3 {
-  text-shadow: 1px 1px #a98398 ;
-}
-.span {
-  color: var(--primary-color);
-  font-weight: bold;
-}
+/*navbar */
 
 .navbar-brand{
   color: var(--primary-color);
@@ -18,27 +12,7 @@
   font-size: 50px;
   
 }
-.navbar-toggler-icon {
-  color: var(--primary-color);
-}
 
-.btn-outline {
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-}
-
-.nav-container {
-  margin-right: 0;
-  
-}
-
-.display-1 {
-  font-weight: bold;
-}
-
-.body-banner {
-  background-color: var(--primary-color);
-}
 
 .btn-signup {
   background-color: var(--primary-color);
@@ -46,11 +20,43 @@
   border-radius: 1rem;
 }
 
+.btn-signup:hover {
+  
+  border-color: var(--primary-color);
+  color: white;
+}
+
+
+.display-1 {
+  font-weight: bold;
+}
+
+.display-3 {
+  text-shadow: 1px 1px #060003 ;
+}
+.span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+
+
+.body-banner {
+  background-color: var(--primary-color);
+}
+
+
+
 @media (min-width: 768px) {
   .hero-input {
     width: 50%;
     margin-top: 5px;
   }
+}
+
+.footer-section {
+  background-color: var(--primary-color);
+  text-shadow:1px 1px #060003;
 }
 
 

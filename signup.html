@@ -16,9 +16,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>Sign Up</title>
 </head>
-<body class="bg-dark text-light-emphasis d-flex align-content-between">
+<body>
+    <!--Navbar-->
+ <nav class="navbar navbar-expand-lg bg-black navbar-dark sticky-lg-top ">
+        <div class="container nav-container">  
+          <a href="#" class="navbar-brand ml-0 ">
+            <img src="images/logo.png" width="40" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navmenu">
+            <form action="login.html" class="ms-auto">
+              <button class="btn btn-login" type="submit">Login</button>
+            </form>
+          </div>
+          
+        </div>
+ </nav>
 
-    <div class="signup-photo mt-5">
+      <!--Nav end-->
+<section class="signup-form bg-black">
+  <div class="container-fluid main-body text-light-emphasis d-flex align-content-between">
+    <div class="signup-photo mt-4">
         <img src="images/signup-photo.svg" class="img-fluid w-100 d-none d-md-block" width="100%" alt="">
     </div>
     <div class="container w-50 ">
@@ -27,7 +47,7 @@
                 <h1 class="display-1 text-light text-lg-start text-center ">Welcome to <span class="hagi">Hagi</span></h1>
                 <p class="lead">Create an account</p>
             </div>
-            <div class="form-floating mb-3">
+            <div class="form-floating  mb-3">
                 <input type="text" class="form-control" id="inputUsername" placeholder="jSmith123">
                 <label for="inputUsername">Enter Username</label>
             </div>
@@ -38,13 +58,13 @@
                 </div>
                 <div class="col-lg-6 form-floating mb-3">
                     <input type="email" class="form-control" id="confirmEmail" placeholder="name@email.com">
-                    <label for="confrimEmail">Confirm Email</label>
+                    <label for="confirmEmail">Confirm Email</label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6 form-floating mb-3">
                     <input type="password" class="form-control" id="inputPassword" placeholder="password123">
-                    <label for="inputPassword">Enter password</label>
+                    <label for="inputPassword ">Enter password</label>
                 </div>
                 <div class="col-lg-6 form-floating mb-3">
                     <input type="password" class="form-control" id="confirmPassword" placeholder="password123">
@@ -56,7 +76,7 @@
                 <label for="iAgree">I agree with the terms and conditions</label>
             </div>
             <div class="d-flex justify-content-center">
-                <button  class="form-control btn-lg w-25">Sign Up</button>
+                <button  class="form-control btn-signup btn-lg w-25">Sign Up</button>
             </div>
             
             <div class="form-footer">
@@ -74,10 +94,18 @@
                     </a>
                 </div>
             </div>
-        </div>
-        
+        </div>  
     </div>
+</div>
+</section>
     
-    
+        <!--footer-->
+<section class="footer-section p-3" >
+    <footer>
+      <div class="container text-center">
+        <small class="text-white 50">&copy; Copyright by Kian Ong. All rights reserved.</small>
+      </div>
+    </footer>
+  </section>
 </body>
 </html>

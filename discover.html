@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--main css-->
+    <link rel="stylesheet" href="discover.css">
+    <!--google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Discover</title>
+</head>
+<body class="bg-black">
+    <!--Responsive Navbar-->  
+  <nav class="navbar navbar-expand-lg bg-black navbar-dark sticky-top">
+    <div class="container nav-container">  
+      <a href="#" class="navbar-brand ml-0 p-0">
+        <img src="images/logo.png" width="40" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#discover" class="nav-link">Discover</a>
+          </li>
+          <li class="nav-item">
+            <a href="#recommendations" class="nav-link">Recommendations</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle disabled" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My List
+            </a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item" href="#">Watched</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">My Recommendations</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Favorites</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link">Log in</a>
+          </li>
+        </ul>
+        <form action="signup.html">
+          <button class="btn btn-signup" type="submit">Sign-up</button>
+        </form>
+      </div>
+      
+    </div>
+  </nav>
+  <!--Navbar end-->
+  <section class="upcoming-carousel bg-black">
+    <div id="carousel-1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://sportshub.cbsistatic.com/i/2022/12/01/cdf8611e-f2de-4ae2-b27d-73746fa62c10/guardians-of-the-galaxy-vol-3-poster.jpg?auto=webp&width=928&height=1160&crop=0.8:1,smart"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title"> Guardians of the Gualaxy Vol.3</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://www.comingsoon.net/wp-content/uploads/sites/3/2022/12/john-wick-4-poster.jpeg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">John Wick: Chapter 4</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://assets-prd.ignimgs.com/2023/02/03/foevbcsayamvqpf-1675462826997.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">The Super Mario Movie</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://images.squarespace-cdn.com/content/v1/5c213a383c3a53bf091b1c36/7b95427c-0efc-4fda-a7a7-f634a3fc03db/image001.png"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Fast X</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2022/07/FYNpT57UYAAL8y5.jpeg
+                    "  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dungeons & Dragons: Honor Among Thieves</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://sportshub.cbsistatic.com/i/2023/01/03/732d9bb0-00b5-42b0-86c9-87e7928c9f9c/evil-dead-rise-poster-2022.jpg?auto=webp&width=1382&height=2048&crop=0.675:1,smart"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Evil Dead: Rise</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://assets-prd.ignimgs.com/2022/12/03/fjej3p5vsaefncy-1670085354902.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Beetle</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://m.media-amazon.com/images/M/MV5BMGI0ZDg3Y2EtYzIyYi00MGYwLThlOGItNWQ5MjMxNDU2ODUzXkEyXkFqcGdeQXVyMTEwMTcxOTAx._V1_FMjpg_UX1000_.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Deadpool 3</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://m.media-amazon.com/images/M/MV5BMmNjYTk0MjItYjYyMi00Y2RlLThmOGUtMTkyMWI1NTU2M2Q4XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Are you there God? It's me Margaret</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+  <section class="new-release bg-black">
+    <div id="carousel-2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://pbs.twimg.com/media/FmAbXXBakAI7ihJ?format=jpg&name=900x900
+                    "  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Ant-man and The Wasp: Quantumania</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2022/11/knock-1.png?ssl=1"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Knock at the Cabin</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://images.fandango.com/ImageRenderer/820/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/230345/80fbdomonlineteaser1sht04fin9.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">80 for Brady</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://image.tmdb.org/t/p/original/ydhZeUjbzVEFclUpMhLfDZSavUY.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">The Amazing Maurice</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://media-cache.cinematerial.com/p/500x/e5fwzzos/what-about-love-movie-poster.jpg?v=1612209664"  alt="">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">What About Love</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Your_Place_or_Mine%3F_poster.jpg"  alt="">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Your Place or Mine</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card" >
+                  <div class="image-wrapper">
+                    <img src="https://m.media-amazon.com/images/M/MV5BM2JlN2Q2ZmYtYmU4OS00ZjNlLWE2OTEtOTc2ZDY5NjEwMTM4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg
+                    "  alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Sharper</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://pics.filmaffinity.com/Cocaine_Bear-322886179-large.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Cocaine Bear</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://images.fandango.com/ImageRenderer/820/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/229145/JesusRev_USATODAY_2000x3000_1A.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Jesus Revolution</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+  <section class="classics bg-black">
+    <div id="carousel-3" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+                <div class="card" >
+                  <div class="image-wrapper">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNDQ1YmNmNDctMTZiZS00OGU3LWIyN2YtMWIwMmVhNDQ0MjY5XkEyXkFqcGdeQXVyMjQ0NzE0MQ@@._V1_.jpg"  alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Catch me if You Can</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://cdn.shopify.com/s/files/1/0037/8008/3782/products/gone_with_the_wind_R70_linen_WC32674_B_1024x1024@2x.jpg?v=1642013168
+                      "  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Gone With The Wind</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL75_UX190_CR0,1,190,281_.jpg
+                    "  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">The Usual Suspects</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card" >
+                  <div class="image-wrapper">
+                    <img src="https://img.fruugo.com/product/0/24/14236240_max.jpg"  alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Forrest Gump</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_QL75_UY281_CR1,0,190,281_.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Saving Private Ryan</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://m.media-amazon.com/images/I/81D+KJkO4SL._AC_SL1500_.jpg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Fight club</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+                <div class="card" >
+                  <div class="image-wrapper">
+                    <img src="https://cdn.shopify.com/s/files/1/0627/1477/products/pulp-fiction-film-poster-print-281196_1024x.jpg?v=1661524235"  alt="...">
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">The Shawshank Redemption</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://m.media-amazon.com/images/I/51SZp7RhtQL._AC_.jpg
+                    "  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">The Matrix</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <div class="image-wrapper">
+                      <img src="https://assets.fontsinuse.com/static/use-media-items/171/170606/full-2880x2225/6310669c/TheMatrix_USSubwayTwoSheet_ConceptArts_Web2.jpeg"  alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+  <section class="footer-section p-3 mt-5" >
+    <footer>
+      <div class="container text-center">
+        <small class="text-white 50">&copy; Copyright by Kian Ong. All rights reserved.</small>
+      </div>
+    </footer>
+  </section>
+</body>
+</html>

@@ -1,0 +1,70 @@
+:root {
+    --primary-color: #B9103C;
+    --bs-body-bg: #FBF0F6;
+    --bs-body-font-family: 'Montserrat', sans-serif;
+  }
+  
+  /*navbar */
+  
+  .navbar-brand{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 50px;
+    
+  }
+  
+  
+  .btn-signup {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+  }
+  
+  .btn-signup:hover {
+    
+    border-color: var(--primary-color);
+    color: white;
+  }
+  
+
+  section {
+    margin-top: 2rem;
+  }
+
+  @media screen and (min-width: 567px) {
+    .cards-wrapper {
+      display: flex;
+    }
+  }
+  
+  .card {
+    margin: 0 .5em;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  @media screen and (max-width: 567px) {
+      .card:not(:first-child) {
+        display: none;
+      }
+      .image-wrapper img{
+        object-fit: contain;
+      }
+  }
+
+  .image-wrapper {
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-wrapper img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .footer-section {
+    background-color: var(--primary-color);
+    text-shadow:1px 1px #060003;
+  }
