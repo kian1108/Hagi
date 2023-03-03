@@ -1,0 +1,82 @@
+:root {
+    --primary-color: #B9103C;
+    --bs-body-bg: #FBF0F6;
+    --bs-body-font-family: 'Montserrat', sans-serif;
+  }
+  
+  /*navbar */
+  
+  .navbar-brand{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 50px;
+    
+  }
+  
+  
+  .btn-signup {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+  }
+  
+  .btn-signup:hover {
+    
+    border-color: var(--primary-color);
+    color: white;
+  }
+
+  span {
+    color: var(--primary-color)
+  }
+
+.signup-photo img{
+    height: 50rem;
+}
+
+.post{
+    display: flex;
+    border-bottom: 1px solid #B9103C;
+    margin-bottom: 2px;
+    padding: 10px 15px;
+    min-width:15rem ;
+}
+.post:hover{
+    background: rgba(250, 248, 248, 0.1);
+    cursor: pointer;
+}
+.post-author-logo {
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+}
+.post-authorname {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+
+.post-publish-time {
+    font-size: 15px;
+    margin: 5px;
+    color: #657786;
+}
+
+.post-footer img {
+    width: 2rem;
+}
+.post-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+}
+.trailer-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
